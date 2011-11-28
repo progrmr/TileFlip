@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E1EA6E414833E4800F8CCF4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1EA6E314833E4800F8CCF4 /* UIKit.framework */; };
+		4E1EA6E614833E4800F8CCF4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1EA6E514833E4800F8CCF4 /* Foundation.framework */; };
+		4E1EA6E814833E4800F8CCF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1EA6E714833E4800F8CCF4 /* CoreGraphics.framework */; };
+		4E1EA6EE14833E4800F8CCF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E1EA6EC14833E4800F8CCF4 /* InfoPlist.strings */; };
+		4E1EA6F014833E4800F8CCF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EA6EF14833E4800F8CCF4 /* main.m */; };
+		4E1EA6F414833E4800F8CCF4 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EA6F314833E4800F8CCF4 /* TFAppDelegate.m */; };
+		4E1EA6F714833E4800F8CCF4 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EA6F614833E4800F8CCF4 /* TFViewController.m */; };
+		4E1EA6FA14833E4800F8CCF4 /* TFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1EA6F814833E4800F8CCF4 /* TFViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E1EA6DF14833E4800F8CCF4 /* TileFlip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TileFlip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E1EA6E314833E4800F8CCF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4E1EA6E514833E4800F8CCF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4E1EA6E714833E4800F8CCF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4E1EA6EB14833E4800F8CCF4 /* TileFlip-Info.plist */ = {isa = PBXFileReference; path = "TileFlip-Info.plist"; sourceTree = "<group>"; };
+		4E1EA6ED14833E4800F8CCF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4E1EA6EF14833E4800F8CCF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4E1EA6F114833E4800F8CCF4 /* TileFlip-Prefix.pch */ = {isa = PBXFileReference; path = "TileFlip-Prefix.pch"; sourceTree = "<group>"; };
+		4E1EA6F214833E4800F8CCF4 /* TFAppDelegate.h */ = {isa = PBXFileReference; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		4E1EA6F314833E4800F8CCF4 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
+		4E1EA6F514833E4800F8CCF4 /* TFViewController.h */ = {isa = PBXFileReference; path = TFViewController.h; sourceTree = "<group>"; };
+		4E1EA6F614833E4800F8CCF4 /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
+		4E1EA6F914833E4800F8CCF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E1EA6DC14833E4800F8CCF4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1EA6E414833E4800F8CCF4 /* UIKit.framework in Frameworks */,
+				4E1EA6E614833E4800F8CCF4 /* Foundation.framework in Frameworks */,
+				4E1EA6E814833E4800F8CCF4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E1EA6D414833E4800F8CCF4 = {
+			isa = PBXGroup;
+			children = (
+				4E1EA6E914833E4800F8CCF4 /* TileFlip */,
+				4E1EA6E214833E4800F8CCF4 /* Frameworks */,
+				4E1EA6E014833E4800F8CCF4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4E1EA6E014833E4800F8CCF4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E1EA6DF14833E4800F8CCF4 /* TileFlip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E1EA6E214833E4800F8CCF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E1EA6E314833E4800F8CCF4 /* UIKit.framework */,
+				4E1EA6E514833E4800F8CCF4 /* Foundation.framework */,
+				4E1EA6E714833E4800F8CCF4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E1EA6E914833E4800F8CCF4 /* TileFlip */ = {
+			isa = PBXGroup;
+			children = (
+				4E1EA6F214833E4800F8CCF4 /* TFAppDelegate.h */,
+				4E1EA6F314833E4800F8CCF4 /* TFAppDelegate.m */,
+				4E1EA6F514833E4800F8CCF4 /* TFViewController.h */,
+				4E1EA6F614833E4800F8CCF4 /* TFViewController.m */,
+				4E1EA6F814833E4800F8CCF4 /* TFViewController.xib */,
+				4E1EA6EA14833E4800F8CCF4 /* Supporting Files */,
+			);
+			path = TileFlip;
+			sourceTree = "<group>";
+		};
+		4E1EA6EA14833E4800F8CCF4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4E1EA6EB14833E4800F8CCF4 /* TileFlip-Info.plist */,
+				4E1EA6EC14833E4800F8CCF4 /* InfoPlist.strings */,
+				4E1EA6EF14833E4800F8CCF4 /* main.m */,
+				4E1EA6F114833E4800F8CCF4 /* TileFlip-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E1EA6DE14833E4800F8CCF4 /* TileFlip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E1EA6FD14833E4800F8CCF4 /* Build configuration list for PBXNativeTarget "TileFlip" */;
+			buildPhases = (
+				4E1EA6DB14833E4800F8CCF4 /* Sources */,
+				4E1EA6DC14833E4800F8CCF4 /* Frameworks */,
+				4E1EA6DD14833E4800F8CCF4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TileFlip;
+			productName = TileFlip;
+			productReference = 4E1EA6DF14833E4800F8CCF4 /* TileFlip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E1EA6D614833E4800F8CCF4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 4E1EA6D914833E4800F8CCF4 /* Build configuration list for PBXProject "TileFlip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4E1EA6D414833E4800F8CCF4;
+			productRefGroup = 4E1EA6E014833E4800F8CCF4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E1EA6DE14833E4800F8CCF4 /* TileFlip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E1EA6DD14833E4800F8CCF4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1EA6EE14833E4800F8CCF4 /* InfoPlist.strings in Resources */,
+				4E1EA6FA14833E4800F8CCF4 /* TFViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E1EA6DB14833E4800F8CCF4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E1EA6F014833E4800F8CCF4 /* main.m in Sources */,
+				4E1EA6F414833E4800F8CCF4 /* TFAppDelegate.m in Sources */,
+				4E1EA6F714833E4800F8CCF4 /* TFViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E1EA6EC14833E4800F8CCF4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1EA6ED14833E4800F8CCF4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4E1EA6F814833E4800F8CCF4 /* TFViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E1EA6F914833E4800F8CCF4 /* en */,
+			);
+			name = TFViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E1EA6FB14833E4800F8CCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4E1EA6FC14833E4800F8CCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E1EA6FE14833E4800F8CCF4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TileFlip/TileFlip-Prefix.pch";
+				INFOPLIST_FILE = "TileFlip/TileFlip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4E1EA6FF14833E4800F8CCF4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TileFlip/TileFlip-Prefix.pch";
+				INFOPLIST_FILE = "TileFlip/TileFlip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E1EA6D914833E4800F8CCF4 /* Build configuration list for PBXProject "TileFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1EA6FB14833E4800F8CCF4 /* Debug */,
+				4E1EA6FC14833E4800F8CCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E1EA6FD14833E4800F8CCF4 /* Build configuration list for PBXNativeTarget "TileFlip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E1EA6FE14833E4800F8CCF4 /* Debug */,
+				4E1EA6FF14833E4800F8CCF4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E1EA6D614833E4800F8CCF4 /* Project object */;
+}
