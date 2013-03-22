@@ -1,60 +1,41 @@
 //
-//  TFViewController.m
-//  TileFlip
+//  MPViewController.m
+//  Match Puzzle
 //
-//  Created by Gary Morris on 11/27/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Created by Gary Morris on 11/26/11.
+//  Copyright (c) 2011 Gary A. Morris. All rights reserved.
 //
 
 #import "TFViewController.h"
+#import "TileView.h"
+#import <QuartzCore/QuartzCore.h>
 
 @implementation TFViewController
 
-- (void)didReceiveMemoryWarning
+@synthesize tileView;
+
+-(void)dealloc
 {
-    [super didReceiveMemoryWarning];
-    // Release any cached data, images, etc that aren't in use.
+    [tileView release];
+    [super dealloc];
 }
 
 #pragma mark - View lifecycle
-
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-}
+    
+    UIImage* backImage = [UIImage imageNamed:@"square_rainbow320back"];
+    UIImage* frontImage= [UIImage imageNamed:@"square_rainbow320"];
+    
+    self.tileView = [[TileView alloc] initWithFrontImage:frontImage 
+                                               BackImage:backImage];
+    tileView.center = [self.view convertPoint:self.view.center toView:tileView];
+    
+    [self.view addSubview:tileView];
 
-- (void)viewDidUnload
-{
-    [super viewDidUnload];
-    // Release any retained subviews of the main view.
-    // e.g. self.myOutlet = nil;
-}
-
-- (void)viewWillAppear:(BOOL)animated
-{
-    [super viewWillAppear:animated];
-}
-
-- (void)viewDidAppear:(BOOL)animated
-{
-    [super viewDidAppear:animated];
-}
-
-- (void)viewWillDisappear:(BOOL)animated
-{
-	[super viewWillDisappear:animated];
-}
-
-- (void)viewDidDisappear:(BOOL)animated
-{
-	[super viewDidDisappear:animated];
-}
-
-- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
-{
-    // Return YES for supported orientations
-    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+    [tileView flipFrontToBack];
 }
 
 @end

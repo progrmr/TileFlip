@@ -15,6 +15,11 @@
 		4E1EA6F414833E4800F8CCF4 /* TFAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EA6F314833E4800F8CCF4 /* TFAppDelegate.m */; };
 		4E1EA6F714833E4800F8CCF4 /* TFViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EA6F614833E4800F8CCF4 /* TFViewController.m */; };
 		4E1EA6FA14833E4800F8CCF4 /* TFViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4E1EA6F814833E4800F8CCF4 /* TFViewController.xib */; };
+		4E1EA70214833F8400F8CCF4 /* square_rainbow320.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1EA70014833F8400F8CCF4 /* square_rainbow320.png */; };
+		4E1EA70314833F8400F8CCF4 /* square_rainbow320back.png in Resources */ = {isa = PBXBuildFile; fileRef = 4E1EA70114833F8400F8CCF4 /* square_rainbow320back.png */; };
+		4E1EA70614833F9900F8CCF4 /* TileView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E1EA70514833F9900F8CCF4 /* TileView.m */; };
+		4E1EA7081483408E00F8CCF4 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1EA7071483408E00F8CCF4 /* QuartzCore.framework */; };
+		4EDD19E716FC057800B3F762 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD19E616FC057700B3F762 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,15 +27,21 @@
 		4E1EA6E314833E4800F8CCF4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4E1EA6E514833E4800F8CCF4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		4E1EA6E714833E4800F8CCF4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		4E1EA6EB14833E4800F8CCF4 /* TileFlip-Info.plist */ = {isa = PBXFileReference; path = "TileFlip-Info.plist"; sourceTree = "<group>"; };
+		4E1EA6EB14833E4800F8CCF4 /* TileFlip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TileFlip-Info.plist"; sourceTree = "<group>"; };
 		4E1EA6ED14833E4800F8CCF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4E1EA6EF14833E4800F8CCF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		4E1EA6F114833E4800F8CCF4 /* TileFlip-Prefix.pch */ = {isa = PBXFileReference; path = "TileFlip-Prefix.pch"; sourceTree = "<group>"; };
-		4E1EA6F214833E4800F8CCF4 /* TFAppDelegate.h */ = {isa = PBXFileReference; path = TFAppDelegate.h; sourceTree = "<group>"; };
+		4E1EA6F114833E4800F8CCF4 /* TileFlip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TileFlip-Prefix.pch"; sourceTree = "<group>"; };
+		4E1EA6F214833E4800F8CCF4 /* TFAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFAppDelegate.h; sourceTree = "<group>"; };
 		4E1EA6F314833E4800F8CCF4 /* TFAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFAppDelegate.m; sourceTree = "<group>"; };
-		4E1EA6F514833E4800F8CCF4 /* TFViewController.h */ = {isa = PBXFileReference; path = TFViewController.h; sourceTree = "<group>"; };
+		4E1EA6F514833E4800F8CCF4 /* TFViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TFViewController.h; sourceTree = "<group>"; };
 		4E1EA6F614833E4800F8CCF4 /* TFViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TFViewController.m; sourceTree = "<group>"; };
 		4E1EA6F914833E4800F8CCF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/TFViewController.xib; sourceTree = "<group>"; };
+		4E1EA70014833F8400F8CCF4 /* square_rainbow320.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_rainbow320.png; sourceTree = "<group>"; };
+		4E1EA70114833F8400F8CCF4 /* square_rainbow320back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = square_rainbow320back.png; sourceTree = "<group>"; };
+		4E1EA70414833F9900F8CCF4 /* TileView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TileView.h; sourceTree = "<group>"; };
+		4E1EA70514833F9900F8CCF4 /* TileView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TileView.m; sourceTree = "<group>"; };
+		4E1EA7071483408E00F8CCF4 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4EDD19E616FC057700B3F762 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E1EA7081483408E00F8CCF4 /* QuartzCore.framework in Frameworks */,
 				4E1EA6E414833E4800F8CCF4 /* UIKit.framework in Frameworks */,
 				4E1EA6E614833E4800F8CCF4 /* Foundation.framework in Frameworks */,
 				4E1EA6E814833E4800F8CCF4 /* CoreGraphics.framework in Frameworks */,
@@ -67,6 +79,7 @@
 		4E1EA6E214833E4800F8CCF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4E1EA7071483408E00F8CCF4 /* QuartzCore.framework */,
 				4E1EA6E314833E4800F8CCF4 /* UIKit.framework */,
 				4E1EA6E514833E4800F8CCF4 /* Foundation.framework */,
 				4E1EA6E714833E4800F8CCF4 /* CoreGraphics.framework */,
@@ -77,6 +90,10 @@
 		4E1EA6E914833E4800F8CCF4 /* TileFlip */ = {
 			isa = PBXGroup;
 			children = (
+				4E1EA70014833F8400F8CCF4 /* square_rainbow320.png */,
+				4E1EA70114833F8400F8CCF4 /* square_rainbow320back.png */,
+				4E1EA70414833F9900F8CCF4 /* TileView.h */,
+				4E1EA70514833F9900F8CCF4 /* TileView.m */,
 				4E1EA6F214833E4800F8CCF4 /* TFAppDelegate.h */,
 				4E1EA6F314833E4800F8CCF4 /* TFAppDelegate.m */,
 				4E1EA6F514833E4800F8CCF4 /* TFViewController.h */,
@@ -90,10 +107,11 @@
 		4E1EA6EA14833E4800F8CCF4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4E1EA6EF14833E4800F8CCF4 /* main.m */,
 				4E1EA6EB14833E4800F8CCF4 /* TileFlip-Info.plist */,
 				4E1EA6EC14833E4800F8CCF4 /* InfoPlist.strings */,
-				4E1EA6EF14833E4800F8CCF4 /* main.m */,
 				4E1EA6F114833E4800F8CCF4 /* TileFlip-Prefix.pch */,
+				4EDD19E616FC057700B3F762 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -150,6 +168,9 @@
 			files = (
 				4E1EA6EE14833E4800F8CCF4 /* InfoPlist.strings in Resources */,
 				4E1EA6FA14833E4800F8CCF4 /* TFViewController.xib in Resources */,
+				4E1EA70214833F8400F8CCF4 /* square_rainbow320.png in Resources */,
+				4E1EA70314833F8400F8CCF4 /* square_rainbow320back.png in Resources */,
+				4EDD19E716FC057800B3F762 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,6 +184,7 @@
 				4E1EA6F014833E4800F8CCF4 /* main.m in Sources */,
 				4E1EA6F414833E4800F8CCF4 /* TFAppDelegate.m in Sources */,
 				4E1EA6F714833E4800F8CCF4 /* TFViewController.m in Sources */,
+				4E1EA70614833F9900F8CCF4 /* TileView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -237,6 +259,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TileFlip/TileFlip-Prefix.pch";
 				INFOPLIST_FILE = "TileFlip/TileFlip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -248,6 +271,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TileFlip/TileFlip-Prefix.pch";
 				INFOPLIST_FILE = "TileFlip/TileFlip-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -272,6 +296,7 @@
 				4E1EA6FF14833E4800F8CCF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
